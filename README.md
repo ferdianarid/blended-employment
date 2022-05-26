@@ -1,4 +1,4 @@
-## Blended Employment - The #1 Sales and Marketing Recruitment Agency in Australia
+### Blended Employment - The #1 Sales and Marketing Recruitment Agency in Australia
 
 <img src="./public/preview.png" alt="preview" />
 
