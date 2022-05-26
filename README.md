@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Blended Employment - The #1 Sales and Marketing Recruitment Agency in Australia
 
-## Getting Started
+<img src="./public/preview.png" alt="preview" />
 
 First, run the development server:
 

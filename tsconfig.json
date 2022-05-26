@@ -9,6 +9,9 @@
       "@pages/*": [
         "pages/*"
       ],
+      "@modules/*": [
+        "components/modules/*"
+      ],
       "@specs/*": [
         "specs/*"
       ],
@@ -22,7 +25,7 @@
         "styles/*"
       ],
       "@layouts/*": [
-        "components/layouts/*"
+        "layouts/*"
       ],
       "@module/*": [
         "components/modules/*"
