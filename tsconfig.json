@@ -9,6 +9,12 @@
       "@pages/*": [
         "pages/*"
       ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@moleculs/*": [
+        "components/moleculs/*"
+      ],
       "@modules/*": [
         "components/modules/*"
       ],
@@ -26,9 +32,6 @@
       ],
       "@layouts/*": [
         "layouts/*"
-      ],
-      "@module/*": [
-        "components/modules/*"
       ],
       "@templates/*": [
         "components/templates/*"
