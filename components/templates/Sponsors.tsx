@@ -11,7 +11,7 @@ const Sponsors = () => {
                 <div className="grid grid-cols-4 gap-8 py-10">
                     {imagePath.map((path) => {
                         return (
-                            <Image src={`/homepage/sponsors/${path}.png`} height={40} width={160} alt={path} />
+                            <Image key={path} src={`/homepage/sponsors/${path}.png`} height={40} width={160} alt={path} />
                         )
                     })}
                 </div>
