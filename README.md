@@ -2,6 +2,9 @@
 
 <img src="./public/preview.png" alt="preview" />
 
+## Preview Homepage
+<img src="./public/home.png" alt="previewhome" />
+
 First, run the development server:
 
 ```bash
