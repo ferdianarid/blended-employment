@@ -339,6 +339,45 @@ const Home: NextPage = () => {
               <h1 className="font-bold text-5xl text-white">Let’s Learn How it Works 👇</h1>
               <p className="text-lg font-normal mx-auto mt-6 text-white max-w-[736px]">Finding the right candidate shouldn’t be a process of trial and error. With Blended Employment’s industry expertise and thorough screening process, we will ensure you aren’t taking a gamble on your company’s biggest assets – your employees.</p>
             </div>
+
+            <div className="mt-14 flex items-center  max-w-[800px] mx-auto">
+              <h3 className="font-bold text-white py-4 px-6 w-fit rounded-full bg-blue-600">Create Job Position</h3>
+              <h3 className="font-normal text-white py-4 px-6 w-fit rounded-full">Source Candidates</h3>
+              <h3 className="font-normal text-white py-4 px-6 w-fit rounded-full">Facilitate Client</h3>
+              <h3 className="font-normal text-white py-4 px-6 w-fit rounded-full">Secure Candidate</h3>
+            </div>
+
+            <div className="flex mt-8">
+              <div className="max-w-[264px]">
+                <h1 className="font-bold text-lg text-white">Create Job Position</h1>
+                <h1 className="font-normal mt-4 leading-relaxed text-sm text-white">Clearly defining a role and its expectations is crucial to attracting the right candidates.
+                  As part of our recruitment service in Australia, we will work alongside your team to assist in creating an accurate and compelling job description. </h1>
+              </div>
+
+              <div className="w-[734px] ml-10 bg-white rounded-xl p-6">
+                <h2 className="font-bold text-2xl">Create Job Position</h2>
+                <p className="text-gray-500 font-normal mt-2">Please fill this form to continue next step</p>
+                <div className="w-full grid grid-cols-2 gap-4">
+                  <div className="mt-3">
+                    <h3 className="font-semibold text-md">Your Name <span className="text-red-600">*</span></h3>
+                    <input type="text" name="" id="" className='py-4 px-6 text-sm rounded-md border border-gray-300 mt-2 w-full' placeholder='David Malonel' />
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-semibold text-md">Your Email <span className="text-red-600">*</span></h3>
+                    <input type="text" name="" id="" className='py-4 px-6 text-sm rounded-md border border-gray-300 mt-2 w-full' placeholder='Input your email' />
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-semibold text-md">Company Name <span className="text-red-600">*</span></h3>
+                    <input type="text" name="" id="" className='py-4 px-6 text-sm rounded-md border border-gray-300 mt-2 w-full' placeholder='Input your company name' />
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-semibold text-md">Role Recruited <span className="text-red-600">*</span></h3>
+                    <input type="text" name="" id="" className='py-4 px-6 text-sm rounded-md border border-gray-300 mt-2 w-full' placeholder='Input role recruited' />
+                  </div>
+                </div>
+                <button className="py-4 rounded-md bg-blue-600 text-sm text-white font-medium w-full mt-8">Submit</button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -448,15 +487,124 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        {/* 
-        <div className="w-full bg-[#F7F8FB] px-[50px] py-[90px] flex space-between">
-          <div className="relative">
-            <Image src='/homepage/content/person.png' width={450} height={600} className='z-20' />
-            <div className="w-[450px] top-0 ml-20 h-[600px] bg-[#FFC85F] absolute"></div>
+
+        <div className="w-full bg-white px-[50px] py-[90px] flex space-between">
+          <div className="relative w-[60%]">
+            <Image src='/homepage/content/person.png' width={700} height={900} />
           </div>
-        </div> */}
+          <div className="w-[40%]">
+            <h3 className="font-bold text-4xl">Connect with a Person Who Understands People, Today.</h3>
+            <h3 className="font-normal text-[#32323D] leading-[26px] pt-6 text-sm">For more information on our services or to get started on securing the right candidate to fulfil your greatest business requirements, be sure to contact the industry experts at Blended Employment on 07 3667 8895 or info@blendedemployment.com.au</h3>
+            <div className="mt-24">
+              <h3 className="font-semibold text-md">Your Name <span className="text-red-600">*</span></h3>
+              <input type="text" name="" id="" className='py-4 px-6 text-sm rounded-2xl border border-gray-300 mt-2 w-full' placeholder='Input your name' />
+              <div className="mt-3">
+                <h3 className="font-semibold text-md">Your Email <span className="text-red-600">*</span></h3>
+                <input type="text" name="" id="" className='py-4 px-6 text-sm rounded-2xl border border-gray-300 mt-2 w-full' placeholder='Input your email' />
+              </div>
+              <div className="mt-3">
+                <h3 className="font-semibold text-md">Subject <span className="text-red-600">*</span></h3>
+                <input type="text" name="" id="" className='py-4 px-6 text-sm rounded-2xl border border-gray-300 mt-2 w-full' placeholder='Input subject' />
+              </div>
+              <div className="mt-3">
+                <h3 className="font-semibold text-md">Your Message <span className="text-red-600">*</span></h3>
+                <textarea className='py-8 px-6 text-sm rounded-2xl border border-gray-300 mt-2 w-full' placeholder='Input your message' />
+              </div>
+              <button className="py-4 w-full mt-6 rounded-md font-semibold text-md bg-[#0C15A7] text-center text-white">Send Email</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full bg-[#F7F8FB] px-[88px] py-[120px]">
+          <h1 className="text-center font-bold text-4xl">Our Blog</h1>
+          <h1 className="text-center text-[#32323D] font-normal mt-6 mb-14 text-md">Get additional information and the latest updates from the world of work.</h1>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10 mt-14">
+            <div className="w-full">
+              <h1 className="font-bold text-[20px]">Why there’s nothing wrong with staying put</h1>
+              <p className="text-sm text-gray-400 font-normal mt-4">Picture this: you’ve been in your job for several years. You’re enjoying it. You’re good at it. The business is humming along and you’re in no danger <span className="font-bold text-[#0C15A7]"> Read More...</span></p>
+              <hr className='border border-gray-200 w-[95%] my-6' />
+              <p className="text-xs text-gray-400">November 22, 2021</p>
+            </div>
+            <div className="w-full">
+              <h1 className="font-bold text-[20px]">Healthy ways to deal  with stress</h1>
+              <p className="text-sm text-gray-400 font-normal mt-4">Picture this: you’ve been in your job for several years. You’re enjoying it. You’re good at it. The business is humming along and you’re in no danger <span className="font-bold text-[#0C15A7]"> Read More...</span></p>
+              <hr className='border border-gray-200 w-[95%] my-6' />
+              <p className="text-xs text-gray-400">November 22, 2021</p>
+            </div>
+            <div className="w-full">
+              <h1 className="font-bold text-[20px]">Where do you want to be in five years’ time?</h1>
+              <p className="text-sm text-gray-400 font-normal mt-4">Picture this: you’ve been in your job for several years. You’re enjoying it. You’re good at it. The business is humming along and you’re in no danger <span className="font-bold text-[#0C15A7]"> Read More...</span></p>
+              <hr className='border border-gray-200 w-[95%] my-6' />
+              <p className="text-xs text-gray-400">November 22, 2021</p>
+            </div>
+            <div className="w-full">
+              <h1 className="font-bold text-[20px]">Trying to get hired? Time to know your employer inside out</h1>
+              <p className="text-sm text-gray-400 font-normal mt-4">Picture this: you’ve been in your job for several years. You’re enjoying it. You’re good at it. The business is humming along and you’re in no danger <span className="font-bold text-[#0C15A7]"> Read More...</span></p>
+              <hr className='border border-gray-200 w-[95%] my-6' />
+              <p className="text-xs text-gray-400">November 22, 2021</p>
+            </div>
+            <div className="w-full">
+              <h1 className="font-bold text-[20px]">What did you learn from your first job?</h1>
+              <p className="text-sm text-gray-400 font-normal mt-4">Picture this: you’ve been in your job for several years. You’re enjoying it. You’re good at it. The business is humming along and you’re in no danger <span className="font-bold text-[#0C15A7]"> Read More...</span></p>
+              <hr className='border border-gray-200 w-[95%] my-6' />
+              <p className="text-xs text-gray-400">November 22, 2021</p>
+            </div>
+            <div className="w-full">
+              <h1 className="font-bold text-[20px]">Why there’s nothing wrong with staying put</h1>
+              <p className="text-sm text-gray-400 font-normal mt-4">Picture this: you’ve been in your job for several years. You’re enjoying it. You’re good at it. The business is humming along and you’re in no danger <span className="font-bold text-[#0C15A7]"> Read More...</span></p>
+              <hr className='border border-gray-200 w-[95%] my-6' />
+              <p className="text-xs text-gray-400">November 22, 2021</p>
+            </div>
+          </div>
+        </div>
+        <div className="w-full bg-[#0C0A1A] px-[88px] py-14 flex">
+          <div className="w-1/2">
+            <Image src='/homepage/icons/logo.png' width={100} height={60} alt='logo' />
+            <p className="text-sm font-normal mt-6 max-w-[397px] text-white text-opacity-80 leading-relaxed">We understand that a business is nothing without the people who stand proudly behind it. Your employees are the woven fabric that holds your business together, which is why it’s important to be confident in your selection process.</p>
+            <h4 className="font-bold text-md text-white mt-6">info@blendedemployment.com.au</h4>
+          </div>
+          <div className="w-1/2">
+            <div className="grid grid-cols-3 gap-x-6">
+              <div className="">
+                <h2 className="font-bold text-gray-400 mb-6">Features</h2>
+                <h4 className="font-normal text-white text-sm my-3">Home</h4>
+                <h4 className="font-normal text-white text-sm my-3">Hiring</h4>
+                <h4 className="font-normal text-white text-sm my-3">Careers</h4>
+                <h4 className="font-normal text-white text-sm my-3">About Us</h4>
+              </div>
+              <div className="">
+                <h2 className="font-bold text-gray-400">General</h2>
+                <h4 className="font-normal text-white text-sm my-3">Job Search</h4>
+                <h4 className="font-normal text-white text-sm my-3">FAQ</h4>
+                <h4 className="font-normal text-white text-sm my-3">Blogs</h4>
+              </div>
+              <div className="">
+                <h2 className="font-bold text-gray-400">Find Us</h2>
+                <h4 className="font-normal text-white text-sm my-3">1/88 Commercial Rd. Tenerife 4005</h4>
+                <h4 className="font-normal text-white text-sm my-3">View on Map</h4>
+                <h4 className="font-normal text-white text-sm my-3">Ready to work with us?</h4>
+                <button className="text-sm rounded-md bg-[#EBB541] py-3 px-2 font-semibold">Let’s Work Together</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full py-7 px-[88px] bg-white flex justify-between items-center">
+          <div className="w-[70%] flex items-center space-x-8">
+            <div className="flex items-center">
+              <Image src='/homepage/icons/facebook.png' width={40} height={40} alt='facebook' />
+              <p className="text-sm ml-2 font-medium text-gray-600">Facebook</p>
+            </div>
+            <div className="flex items-center">
+              <Image src='/homepage/icons/linkedinmed.png' width={40} height={40} alt='linkedin' />
+              <p className="text-sm ml-2 font-medium text-gray-600">Linkedin</p>
+            </div>
+          </div>
+          <div className="w-[30%]">
+            <p className="text-gray-400 font-semibold text-sm">© Blended Employment 2022. All rights reserved.</p>
+          </div>
+        </div>
       </PageLayouts>
-    </React.Fragment >
+    </React.Fragment>
   )
 }
 
