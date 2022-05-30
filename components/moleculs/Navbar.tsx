@@ -7,7 +7,7 @@ const Navbar = () => {
         <React.Fragment>
             <div className="px-[88px] z-50 w-full mx-auto relative">
                 <div className="w-full max-w-[1264px] mt-8 bg-white flex justify-between items-center  shadow-slate-100 shadow-2xl h-20 fixed px-8 py-4">
-                    <Image src='/homepage/header/logo.png' width={98} height={40} />
+                    <Image src='/homepage/header/logo.png' width={98} height={40} alt='logo' />
                     <div className="flex items-center space-x-8">
                         <Link href={'/job-board'}>
                             <h1 className="font-semibold text-[#76767E] text-sm">Live Job Board</h1>

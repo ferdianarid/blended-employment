@@ -30,7 +30,7 @@ const ActiveCandidate = () => {
                 <div className="w-full mt-4 relative">
                     {data.map((item) => {
                         return (
-                            <ListPoint title={item.title} />
+                            <ListPoint key={item.title} title={item.title} />
                         )
                     })}
                     <div className="flex items-center my-2">
