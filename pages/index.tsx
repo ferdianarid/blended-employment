@@ -259,19 +259,19 @@ const Home: NextPage = () => {
               <h1 className="font-bold text-white text-2xl">Why We’re Better at Bringing People Together</h1>
               <div className="grid grid-cols-3">
                 <h1 className="font-normal text-white gap-x-2 text-md mt-6 flex items-center">
-                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} />
+                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} alt='items' />
                   We don’t discriminate at all</h1>
                 <h1 className="font-normal text-white gap-x-2 text-md mt-6 flex items-center">
-                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} />
+                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} alt='items' />
                   We provide authentic solutions</h1>
                 <h1 className="font-normal text-white gap-x-2 text-md mt-6 flex items-center">
-                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} />
+                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} alt='items' />
                   We follow a proven process</h1>
                 <h1 className="font-normal text-white gap-x-2 text-md mt-3 flex items-center">
-                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} />
+                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} alt='items' />
                   Small in size, large in reach</h1>
                 <h1 className="font-normal text-white gap-x-2 text-md mt-3 flex items-center">
-                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} />
+                  <Image src={'/homepage/icons/blue-check.png'} height={20} width={20} alt='items' />
                   We have international reach</h1>
               </div>
             </div>
@@ -347,25 +347,25 @@ const Home: NextPage = () => {
           <p className="text-lg font-normal text-[#32323D] max-w-[739px] pt-6">At Blended Employment, our recruiters are dedicated to bringing people together. As a company built on integrity, excellence and transparency</p>
           <div className="grid grid-cols-3 gap-x-6 mt-14">
             <div className="w-full rounded-2xl bg-white p-6 border border-[#0C0A1A] h-[400px] relative">
-              <Image src='/homepage/content/discuss.png' width={409} height={256} />
+              <Image src='/homepage/content/discuss.png' width={409} height={256} alt='discuss' />
               <div className="absolute z-10 top-8 right-8">
-                <Image src='/homepage/icons/camera.png' width={40} height={40} />
+                <Image src='/homepage/icons/camera.png' width={40} height={40} alt='camera' />
               </div>
               <div className="absolute bg-white w-[300px] rounded-lg z-10 left-8 bottom-40 p-2 flex items-center">
-                <Image src='/homepage/faces/faces1.png' width={38} height={38} />
+                <Image src='/homepage/faces/faces1.png' width={38} height={38} alt='faces' />
                 <div className="flex flex-col ml-2">
                   <h1 className="font-bold text-sm">Emma Quinnel</h1>
                   <h1 className="font-normal text-sm text-[#051237]">Manager at Company Industry</h1>
                 </div>
               </div>
-              <Image src='/homepage/content/skeleton1.png' width={340} height={80} />
+              <Image src='/homepage/content/skeleton1.png' width={340} height={80} alt='skeleton' />
               <h1 className="font-bold text-2xl pt-5">Commercial & Industrial</h1>
             </div>
             <div className="w-full rounded-2xl p-6 border border-[#0C0A1A] bg-white h-[400px]">
               <h1 className="font-bold text-2xl pb-5">Technology & Digital</h1>
               <div className="flex space-x-2">
                 <div className="w-full rounded-lg border border-gray-400 bg-white">
-                  <Image src='/homepage/content/tech.png' width={300} height={200} />
+                  <Image src='/homepage/content/tech.png' width={300} height={200} alt='content' />
                   <div className="p-3">
                     <h3 className="font-bold text-sm">Tech People</h3>
                     <div className="py-2 mt-1 w-full bg-gray-200 rounded-md"></div>
@@ -378,14 +378,14 @@ const Home: NextPage = () => {
                 <div className="w-full rounded-lg p-2 border border-gray-400 bg-white">
                   <h3 className="font-bold text-sm mt-2">Members</h3>
                   <div className="flex items-center mt-2">
-                    <Image src='/homepage/faces/faces2.png' width={32} height={32} />
+                    <Image src='/homepage/faces/faces2.png' width={32} height={32} alt='faces' />
                     <div className="ml-2">
                       <h3 className="text-xs font-bold text-[#19439E]">David Haykal</h3>
                       <h3 className="text-xs font-normal text-gray-400">Tech Lead</h3>
                     </div>
                   </div>
                   <div className="flex items-center mt-2">
-                    <Image src='/homepage/faces/faces3.png' width={32} height={32} />
+                    <Image src='/homepage/faces/faces3.png' width={32} height={32} alt='faces' />
                     <div className="ml-2">
                       <h3 className="text-xs font-bold text-[#19439E]">Joachim Low</h3>
                       <h3 className="text-xs font-normal text-gray-400 py-1 bg-gray-200"></h3>
@@ -393,7 +393,7 @@ const Home: NextPage = () => {
                   </div>
 
                   <div className="flex items-center mt-2">
-                    <Image src='/homepage/faces/faces4.png' width={32} height={32} />
+                    <Image src='/homepage/faces/faces4.png' width={32} height={32} alt='faces' />
                     <div className="ml-2">
                       <h3 className="text-xs font-bold text-[#19439E]">Malik</h3>
                       <h3 className="text-xs font-normal text-gray-400 py-1 bg-gray-200"></h3>
@@ -401,7 +401,7 @@ const Home: NextPage = () => {
                   </div>
 
                   <div className="flex items-center mt-2">
-                    <Image src='/homepage/faces/faces5.png' width={32} height={32} />
+                    <Image src='/homepage/faces/faces5.png' width={32} height={32} alt='faces' />
                     <div className="ml-2">
                       <h3 className="text-xs font-bold text-[#19439E]">John Mckin</h3>
                       <h3 className="text-xs font-normal text-gray-400 py-1 bg-gray-200"></h3>
@@ -409,7 +409,7 @@ const Home: NextPage = () => {
                   </div>
 
                   <div className="flex items-center mt-2">
-                    <Image src='/homepage/faces/faces6.png' width={32} height={32} />
+                    <Image src='/homepage/faces/faces6.png' width={32} height={32} alt='faces' />
                     <div className="ml-2">
                       <h3 className="text-xs font-bold text-[#19439E]">Maria Bell</h3>
                       <h3 className="text-xs font-normal text-gray-400 py-1 bg-gray-200"></h3>
@@ -421,9 +421,9 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="relative w-full rounded-2xl p-6 border border-[#0C0A1A] h-[400px]">
-              <Image src='/homepage/content/house.png' width={350} height={200} />
+              <Image src='/homepage/content/house.png' width={350} height={200} alt='house' />
               <div className="absolute z-10 top-36 left-10">
-                <Image src='/homepage/icons/home.png' width={32} height={32} />
+                <Image src='/homepage/icons/home.png' width={32} height={32} alt='house' />
               </div>
               <div className="flex items-center w-full space-between">
                 <h3 className="mt-2 font-bold text-md">Melbourne Apartment</h3>
@@ -436,7 +436,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex w-full flex-col mt-3">
                   <div className="flex items-center mt-2">
-                    <Image src='/homepage/faces/faces6.png' width={32} height={32} />
+                    <Image src='/homepage/faces/faces6.png' width={32} height={32} alt='faces' />
                     <div className="ml-2">
                       <h3 className="text-xs font-bold text-[#19439E]">Maria Bell</h3>
                       <h3 className="text-xs font-normal text-gray-400 py-1 bg-gray-200"></h3>

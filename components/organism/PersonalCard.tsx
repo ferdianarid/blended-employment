@@ -36,7 +36,7 @@ const PersonalCard: React.FC<IPersonal> = ({ name, data, image, activities, pers
             <div className="w-full mt-4 pl-2">
                 {data.map((item) => {
                     return (
-                        <ListPoint title={item} />
+                        <ListPoint key={item} title={item} />
                     )
                 })}
                 {

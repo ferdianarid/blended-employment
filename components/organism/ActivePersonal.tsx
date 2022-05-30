@@ -33,7 +33,7 @@ const ActivePersonal: React.FC<IActivePersonal> = ({ name, image }: IActivePerso
                 <div className="w-full mt-4 relative">
                     {data.map((item: any) => {
                         return (
-                            <ListPoint title={item.title} />
+                            <ListPoint key={item.title} title={item.title} />
                         )
                     })}
                     <div className="flex items-center my-2">
