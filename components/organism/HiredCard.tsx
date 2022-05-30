@@ -36,7 +36,7 @@ const HiredCard: React.FC<IPersonal> = ({ name, data, image, activities, person,
             <div className="w-full mt-4 pl-2">
                 {data.map((item) => {
                     return (
-                        <ListPoint title={item} />
+                        <ListPoint key={item} title={item} />
                     )
                 })}
                 {

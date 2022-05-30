@@ -38,7 +38,7 @@ const InactiveCandidate: React.FC<IInactive> = ({ name, data, image }: IInactive
             <div className="w-full mt-4">
                 {data.map((item) => {
                     return (
-                        <ListPoint title={item} />
+                        <ListPoint key={item} title={item} />
                     )
                 })}
                 <div className="flex items-center my-2">
